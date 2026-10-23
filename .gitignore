@@ -1,0 +1,15 @@
+# Your own game files and everything derived from them: never commit them.
+game/
+content*/
+keys*.txt
+# Every local config; only the example is published.
+tlou-server*.conf
+!tlou-server.example.conf
+# Player uploads (profiles, game records, leaderboard) and logs.
+storage/
+logs/
+*.log
+# Build output.
+target*/
+# Local agent settings.
+.claude/settings.local.json
